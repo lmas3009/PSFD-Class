@@ -9,4 +9,4 @@ mycursor.execute("select * from employee")
 
 myresult = mycursor.fetchall()
 for row in myresult:
-    print(row)
+    print(row, " ")
