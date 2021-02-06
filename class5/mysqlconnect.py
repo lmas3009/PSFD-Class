@@ -1,5 +1,5 @@
-import mysql.connector as a
-mydb = a.connect(host="localhost",user="root",password = "password123")
+import pymysql as a
+mydb = a.connect(host="localhost",user="root",password = "",database="psfd")
 if(mydb):
     print("Connected")
 else:
